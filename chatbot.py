@@ -6,7 +6,8 @@ import os
 app = Flask(__name__)
 CORS(app)
 
-openai.api_key = os.getenv("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")
+openai.api_key = "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"
+
 
 system_prompt = """
 ✅ Important instructions:
