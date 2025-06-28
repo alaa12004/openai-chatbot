@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: openai-chat-api
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
+    envVars:
+      - key: OPENAI_API_KEY
+        value: "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"
